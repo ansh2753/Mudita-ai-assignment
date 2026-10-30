@@ -1,5 +1,14 @@
 # 🤖 Mudita AI — Applied AI Engineering Assignments
 
+## 🚀 Live Submission Links
+* **Assignment 1 (AI Sales Assistant):**
+  * Frontend: [View Live App](https://mudita-ai-assignment.vercel.app/)
+  * Backend: [View API Docs](https://mudita-ai-assignment.onrender.com/docs)
+
+* **Assignment 2 (AI Operations Coordinator):**
+  * Frontend: [View Live App](https://mudita-ai-assignment-k3wg.vercel.app/)
+  * Backend: [View API Docs](https://mudita-ai-assignment-1.onrender.com/docs)
+
 ### AI Sales Assistant · AI Operations Coordinator
 
 Two full-stack, production-grade AI applications combining Google Gemini LLMs, structured Pydantic workflows, robust API routing, multi-channel inquiry ingestion, and human-centred safeguards.
