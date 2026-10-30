@@ -49,7 +49,7 @@ export default function OperationsDashboard() {
   const handleRun = async () => {
     setLoading(true);
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/run-coordinator", {
+      const res = await fetch("https://mudita-ai-assignment-1.onrender.com/api/run-coordinator", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
