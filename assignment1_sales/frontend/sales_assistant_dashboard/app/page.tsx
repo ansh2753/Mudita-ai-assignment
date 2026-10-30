@@ -60,7 +60,7 @@ export default function SalesDashboard() {
     setLoading(true);
     setBookingStatus(null);
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/inquiries/process", {
+      const res = await fetch("https://mudita-ai-assignment.onrender.com/api/inquiries/process", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -84,7 +84,7 @@ export default function SalesDashboard() {
   const bookSlot = async () => {
     if (!selectedSlot || !qualification) return;
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/calendar/book", {
+      const res = await fetch("https://mudita-ai-assignment.onrender.com/api/calendar/book", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
