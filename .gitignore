@@ -1,0 +1,5 @@
+backend/.env
+backend/__pycache__/
+backend/venv/
+my-app/node_modules/
+my-app/.next/
