@@ -102,5 +102,6 @@ Estimates assume standard paid rates of US$0.75 per 1M input tokens and US$3.75 
 * Used dedicated synthetic test data for all workflow demonstrations.
 * Server-side execution keeps sensitive API keys hidden from client browsers.
 
-**Author:** Ansh Rana
+**Author:** Ansh Rana 
+
 *Applied AI Engineering · Generative AI · Python · LLM Applications*
