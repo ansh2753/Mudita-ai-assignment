@@ -19,3 +19,18 @@ cd assignment2_agents/backend
 pip install -r requirements.txt
 # Create a .env file containing: GEMINI_API_KEY=your_api_key
 uvicorn main:app --reload
+Backend runs on http://127.0.0.1:8000
+
+ 2. Run the Frontend Dashboard
+cd assignment2_agents/my-app
+npm install
+npm run dev
+Frontend runs on http://localhost:3000
+
+ 3. Push the Changes to GitHub
+Open your terminal in the root folder and run these commands to update your repository:
+
+```powershell
+git add .
+git commit -m "Organize folder structure and add professional README"
+git push origin main
